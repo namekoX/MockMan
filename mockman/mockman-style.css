@@ -1,0 +1,159 @@
+﻿@charset "utf-8";
+
+html {
+	height:100%;
+}
+table {
+	margin: 0px auto 0px auto;
+    	width:900px;
+	padding:0px;
+	border-collapse: collapse;
+	border:1px solid #000;
+	border-color:#383838;
+	color:#222;
+  	table-layout:fixed;
+  	word-break:break-all;
+  	word-wrap:break-word;
+    	empty-cells: hide;
+}
+th {
+	vertical-align: middle;
+	height: 20px;
+	padding: 4px 4px 4px 12px;
+	text-align: left;
+	font-size: 14px;
+	font-weight:bold;
+	color:#fff;
+	background-color:#999999;
+	cursor:default;
+	border:1px solid #000;
+    font-weight:bold;
+}
+td {
+	padding: 4px 4px 4px 12px;
+	margin: 0px;
+	height: 18px;
+	border: none;
+	font-size: 13px;
+	line-height: 15px;
+	vertical-align: middle;
+	border:1px solid #000;
+}
+tr {
+    background-color:#fff;
+}
+
+h1 {
+	font-size:16px;
+	margin:0px 0px 0px -20px;
+	padding:0px;
+	width:800px;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+h2 {
+	font-size:15px;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+}
+h3 {
+	font-size:12px;
+	margin:7px 0px 0px 0px;
+	color : #ff0000;
+}
+input.button1 {
+    font-size: 1.4em;
+    font-weight: bold;
+    width:120px;
+    height:36px;
+}
+div#background{
+	width:1150px;
+	height: auto !important;
+	min-height:100%;
+	height:100%;
+	margin:auto;
+	background-color:#fffacd;
+	box-shadow: 0px 0px 1px 1px;
+	padding:0px;
+	position:relative;
+}
+body {
+	background-color:#fff;
+	margin:0px;
+	padding:0px;
+	height:100%;
+	font-family:'Lucida Grande','Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',Meiryo, メイリオ, sans-serif;
+}
+
+#contents {
+	width:1000px;
+	margin:auto;
+	padding:0px 0px 50px 0px;
+}
+
+.distable { 	
+	width:900px;
+	border:0px solid #fff;
+	border-color:#fff;
+	position: relative;
+    font-weight:bold;
+}
+
+.container {
+	width: 500px;
+	margin: 100px auto;
+}
+
+input {
+	width: 300px;
+	font-size: 18px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.remove {
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	background-color: tomato;
+	color: white;
+	border: none;
+	border-radius: 15px;
+}
+
+#addButton {
+	width: 130px;
+	height: 40px;
+	font-size: 16px;
+	background-color: lightseagreen;
+	color: white;
+	border: none;
+	margin: 20px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+
+textarea {
+	width:160px;
+	height:45px;
+	text-align:center;
+	margin: 0.5px;
+	overflow:hidden;
+}
+
+.my-box{
+	background:#fdf2f2;
+	border:1px solid #f6b9b9;
+	padding: 10px;
+	margin:10px;
+}
+
+.gridcol{
+	margin: 5px 20px 0px 20px;
+}
