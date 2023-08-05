@@ -1,4 +1,5 @@
-var host = 'http://localhost:8000/';
+//var host = 'http://localhost:8000/';
+var host = 'https://slavesystem.info/';
 function getbyurl(url) {
     var ret;
     $.ajaxSetup({

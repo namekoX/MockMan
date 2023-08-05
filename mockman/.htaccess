@@ -1,0 +1,6 @@
+Options -FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.mockman.slavesystems.com\.com$
+RewriteRule ^(.*)$ https://mockman.slavesystems.com/$1 [R=301,L]
